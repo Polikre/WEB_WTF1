@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+    {% if fl == 1 %}
+        <h2>Научные симуляторы</h2>
+        <img src="/static/images/nc.jpeg" width=600 height=500 alt="Error">
+    {% elif fl == 2 %}
+        <h2>Инженерные тренажёры</h2>
+        <img src="/static/images/it.jpeg" width=600 height=500 alt="Error">
+    {% else %}
+        <h2>Другие</h2>
+        <img src="/static/images/ot.jpg" width=600 height=500 alt="Error">
+    {% endif %}
+{% endblock %}

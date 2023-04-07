@@ -1,0 +1,15 @@
+h4{
+    margin-left: 20px;
+    color: rgb(205, 204, 204);
+}
+table, h3{
+  text-align: center;
+  margin: 0 auto;
+}
+h2, h5, p {
+    margin-left: 50px;
+}
+img{
+  display: table;
+  margin: 0 auto;
+}

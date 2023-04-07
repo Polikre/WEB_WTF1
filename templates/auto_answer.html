@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h2>{{dct["title"]}}</h2>
+    {% for i, j in dct.items() %}
+    {% if not loop.first %}
+    <h5>{{i}} {{j}} </h5>
+    {% endif %}
+    {% endfor %}
+{% endblock %}
